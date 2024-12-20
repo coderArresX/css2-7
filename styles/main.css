@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+main {
+    padding: 226px 158px;
+    background-color: #FFFFFF;
+}
+
+section {
+    padding: 96px;
+    background-color: #1B0E0F;
+    max-width: 1604px;
+    width: 100%;
+    height: 2088px;
+    margin: 0 auto;
+}
+
+.main-container {
+    padding: 96px 0;
+    background-color: #FFFFFF;
+    max-width: 1412px;
+    width: 100%;
+    height: 1896px;
+    margin: 0 auto;
+}
+
+.header-container {
+    width: 1280px;
+    height: 150px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1216px;
+    height: 96px;
+    margin-bottom: 24px;
+}
+
+.header > div {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002AFE;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #181D27;
+    line-height: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sup-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #535862;
+}
+
+.container {
+    width: 1280px;
+    height: 462px;
+    margin: 56px auto;
+}
+
+.image {
+    width: 600px;
+    height: 462px;
+    border-radius: 16px;
+    margin-right: 96px;
+    vertical-align: middle;
+}
+
+.content {
+    display: inline-block;
+    width: 575px;
+    height: 275px;
+    vertical-align: middle;
+}
+
+.content-head {
+    width: 575px;
+    height: 211px;
+    margin-bottom: 24px;
+}
+
+.sub-heading {
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.heading-icon {
+    width: 575px;
+    height: 32px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+h2 {
+    color: #181D27;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    display: inline-block;
+    width: 540px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 4px;
+    vertical-align: middle;
+    
+}
+
+.content-text {
+    color: #535862;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 580px;
+    height: 143px;
+    display: inline-block;
+}
+
+.avatar-label {
+    width: 160px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.name-date {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.name {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.date {
+    color: #535862;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+}
